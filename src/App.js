@@ -1,11 +1,14 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
+import { Container, } from 'semantic-ui-react';
 import Home from './components/Home';
 function App() {
   return (
-    <Switch>
-      <Route to="/" component={Home} />
-    </Switch> 
+    <Container>
+      <Switch>
+        <Route to="/" component={Home} />
+      </Switch>
+    </Container>
   );
 }
 
