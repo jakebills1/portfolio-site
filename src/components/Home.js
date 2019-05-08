@@ -8,7 +8,7 @@ const Home = () => {
   const toggle = () => setShow(!show);
   return (
     <div style={styles.container}>
-      <h1 style={styles.hero}>Jake Bills &middot; Web Developer</h1>
+      <h1 style={styles.hero}>Jake Bills | Web Developer</h1>
       <CircleImage />
       { show ? <Info styles={styles} /> : <MoreInfo toggle={toggle} styles={styles}/>}
       <SocialLinks />
