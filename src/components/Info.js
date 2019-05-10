@@ -20,7 +20,7 @@ const Info = ({ styles, }) => {
         <br/>
         <div style={styles.ResumeHeader}>Projects: </div>
         <br/>
-        <div style={styles.ResumeText}><strong><a style={{color: "black", textDecoration: "underline"}} href="https://github.com/jakebills1/query">Query</a></strong>, Quiz App, 2019</div>
+        <div style={styles.ResumeText}><strong><a style={{color: "white", textDecoration: "underline"}} href="https://github.com/jakebills1/query">Query</a></strong>, Quiz App, 2019</div>
         <br/>
         <div style={styles.ResumeHeader}>Skills: </div>
         <br/>
@@ -43,7 +43,7 @@ const Info = ({ styles, }) => {
       </div>
       <div style={styles.ButtonContainer}>
         <div style={styles.button}>
-          <div><a href="mailto:jakebills1@gmail.com" style={{ color: "white" }} >Email me</a></div>
+          <div><a href="mailto:jakebills1@gmail.com" style={{ color: "black" }} >Email me</a></div>
         </div>
       </div>
     </div>

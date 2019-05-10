@@ -18,7 +18,7 @@ const styles = {
     position: "relative",
     overflow: "hidden",
     borderRadius: "50%",
-    border: "5px solid black",
+    border: "5px solid white",
     marginBottom: "10px",
     backgroundImage: `url(${profile})`,
     backgroundSize: "cover",

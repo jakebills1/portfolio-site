@@ -20,6 +20,7 @@ export default Home;
 const styles = {
   hero: {
     fontSize: "50px",
+    color: "white",
   },
   container: {
     display: "flex",
@@ -27,6 +28,7 @@ const styles = {
     flexDirection: "column",
     width: "auto",
     justifyContent: "center",
+    backgroundColor: "black",
   },
   button: {
     width: "25%",
@@ -34,11 +36,12 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "black",
+    backgroundColor: "white",
     marginBottom: "10px",
+    color: "white",
   },
   text: {
-    color: "white"
+    color: "black"
   },
   resume: {
     fontSize: "1.5em",
@@ -46,6 +49,7 @@ const styles = {
   },
   ResumeText: {
     fontSize: "0.75em",
+    color: "white",
   },
   InfoContainer: {
     display: "flex",
@@ -59,9 +63,11 @@ const styles = {
   summary: {
     fontSize: "1.5em",
     marginBottom: "40px",
+    color: "white",
   },
   ResumeHeader: {
     fontWeight: "bold",
+    color: "white",
 
   },
   ListContainer: {
@@ -70,6 +76,7 @@ const styles = {
   },
   ListItem: {
     fontSize: "0.75em",
+    color: "white",
   }
 }
 
