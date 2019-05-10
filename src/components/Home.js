@@ -25,6 +25,8 @@ const styles = {
     display: "flex",
     alignItems: "center",
     flexDirection: "column",
+    width: "auto",
+    justifyContent: "center",
   },
   button: {
     width: "25%",
@@ -37,6 +39,31 @@ const styles = {
   },
   text: {
     color: "white"
+  },
+  resume: {
+    fontSize: "1.5em",
+    marginBottom: "40px",
+  },
+  ResumeText: {
+    fontSize: "0.75em",
+  },
+  InfoContainer: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  ButtonContainer: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  summary: {
+    fontSize: "1.5em",
+    marginBottom: "40px",
+
+  },
+  ResumeHeader: {
+    fontWeight: "bold",
+
   }
 }
 
