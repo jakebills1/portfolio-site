@@ -1,18 +1,10 @@
-import React, { useState, } from 'react';
+import React from 'react';
 import profile from '../assets/Jake_Bills_2.jpeg';
-import Bio from './Bio';
 const CircleImage = () => {
-  const [showBio, setShowBio] = useState(false);
   return (
-    <>
-      {showBio ?
-        <Bio />
-        :
-        <div style={styles.circleContainer} onClick={() => setShowBio(!showBio)}>
-          <img src={profile} style={styles.pic} alt="profile" />
-        </div>
-      }
-    </>
+    <div style={styles.circleContainer} >
+    
+    </div>
   )
 
 }
@@ -27,7 +19,10 @@ const styles = {
     overflow: "hidden",
     borderRadius: "50%",
     border: "5px solid black",
-    marginBottom: "10px"
+    marginBottom: "10px",
+    backgroundImage: `url(${profile})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   },
   pic: {
     display: "inline",

@@ -59,11 +59,17 @@ const styles = {
   summary: {
     fontSize: "1.5em",
     marginBottom: "40px",
-
   },
   ResumeHeader: {
     fontWeight: "bold",
 
+  },
+  ListContainer: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  ListItem: {
+    fontSize: "0.75em",
   }
 }
 

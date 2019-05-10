@@ -21,6 +21,24 @@ const Info = ({ styles, }) => {
         <div style={styles.ResumeHeader}>Projects: </div>
         <br/>
         <div style={styles.ResumeText}><strong><a style={{color: "black", textDecoration: "underline"}} href="https://github.com/jakebills1/query">Query</a></strong>, Quiz App, 2019</div>
+        <br/>
+        <div style={styles.ResumeHeader}>Skills: </div>
+        <br/>
+        <div style={styles.ListContainer}>
+          <div style={styles.ListItem}>Ruby On Rails</div>
+          <div style={styles.ListItem}>React.js</div>
+          <div style={styles.ListItem}>Git & Github</div>
+          <div style={styles.ListItem}>Collaborative Workflow using Feature Branches and Code Review</div>
+          <div style={styles.ListItem}>HTML 5</div>
+          <div style={styles.ListItem}>CSS</div>
+          <div style={styles.ListItem}>Javascript</div>
+          <div style={styles.ListItem}>ES6</div>
+          <div style={styles.ListItem}>Heroku</div>
+          <div style={styles.ListItem}>User Authentification using Devise & Devise Token Auth</div>
+          <div style={styles.ListItem}>SQL</div>
+          <div style={styles.ListItem}>React Context API & Redux</div>
+          <div style={styles.ListItem}>React Hooks</div>
+        </div>
 
       </div>
       <div style={styles.ButtonContainer}>
