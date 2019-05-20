@@ -54,7 +54,8 @@ const styles = {
   ButtonContainer: {
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center", 
+    flexDirection: "column"
   },
   summary: {
     fontSize: "1.5em",

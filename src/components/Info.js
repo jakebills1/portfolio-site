@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, } from 'react-router-dom';
 import { Icon, } from 'semantic-ui-react';
 const Info = ({ styles, }) => {
 
@@ -44,6 +45,9 @@ const Info = ({ styles, }) => {
       <div style={styles.ButtonContainer}>
         <div style={styles.button}>
           <div><a href="mailto:jakebills1@gmail.com" style={{ color: "white" }} >Email me</a></div>
+        </div>
+        <div style={styles.button}>
+          <div><Link to="/resume" style={{ color: "white"}}>Full Resume</Link></div>
         </div>
       </div>
     </div>
