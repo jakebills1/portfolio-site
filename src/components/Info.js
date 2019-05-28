@@ -11,6 +11,9 @@ const Info = ({ styles, }) => {
         <br/>
         <br/>
         My final project there was Query, an education focused app where students can take quizzes created by teachers. My experience working on that app taught me a lot about teamwork, the Agile development philosophy, SQL queries, custom controller actions in Rails, and dynamic forms and state management in React. 
+        <br/>
+        <br/>
+        My current goal is to build my skillset through freelance projects and contributing to open source projects, with the intention of obtaining a developer position with a great company
         </div>
       <div style={styles.ButtonContainer}>
         <div style={styles.button}>
