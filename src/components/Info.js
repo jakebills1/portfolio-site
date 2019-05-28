@@ -1,46 +1,17 @@
 import React from 'react';
-import { Icon, } from 'semantic-ui-react';
 const Info = ({ styles, }) => {
 
   return (
     <div style={styles.InfoContainer}>
-      <div style={styles.summary}>My name is Jake Bills and I am a web developer in the Salt Lake City, Utah area. I build beautiful, functional web applications primarily using <Icon name="diamond" color="red" />Ruby on Rails and <Icon name="react" color="teal" />React but I am exciting to continue learning new technologies and techniques. I am actively seeking work, both freelance and full-time.</div>
-      <div style={styles.resume}>
-        <div style={styles.ResumeHeader}>Education: </div>
+      <div style={styles.summary}>
+        My name is Jake Bills and I am a web developer in the Salt Lake City, Utah area.  I build web applications primarily using Ruby on Rails and React but I am very interested in adding new languages and techniques to my repertoire. I am currently seeking employment opportunities in a development role.
         <br/>
-        <div style={styles.ResumeText}><strong>University of Utah Professional Education</strong>, Web Development Certificate, Spring 2019</div>
-        <div style={styles.ResumeText}><strong>Dev Point Labs</strong>, Full-time Web Development Bootcamp, Spring 2019</div>
-        <div style={styles.ResumeText}><strong>University of Utah</strong>, Bachelors of Music, Spring 2015</div>
         <br/>
-        <div style={styles.ResumeHeader}>Experience: </div>
+        I became interested in programming while in college pursuing my degree in music. I took a music technology course, where I was introduced to the principles of programming through a code-based synthesis program. After that, I dabbled in various languages and online courses before deciding to make the commitment to attend DevPoint Labs, a coding bootcamp from which I graduated in Spring of 2019. 
         <br/>
-        <div style={styles.ResumeText}><strong>Samar Audio Design</strong>, Technician, 2017 to Present</div>
-        <div style={styles.ResumeText}><strong>School Of Rock</strong>, Private Instructor, 2012 to Present</div>
-        <div style={styles.ResumeText}><strong>Freelance Musician</strong>, Performer, 2012 to Present</div>
         <br/>
-        <div style={styles.ResumeHeader}>Projects: </div>
-        <br/>
-        <div style={styles.ResumeText}><strong><a style={{color: "black", textDecoration: "underline"}} href="https://github.com/jakebills1/query">Query</a></strong>, Quiz App, 2019</div>
-        <br/>
-        <div style={styles.ResumeHeader}>Skills: </div>
-        <br/>
-        <div style={styles.ListContainer}>
-          <div style={styles.ListItem}>Ruby On Rails</div>
-          <div style={styles.ListItem}>React.js</div>
-          <div style={styles.ListItem}>Git & Github</div>
-          <div style={styles.ListItem}>Collaborative Workflow using Feature Branches and Code Review</div>
-          <div style={styles.ListItem}>HTML 5</div>
-          <div style={styles.ListItem}>CSS</div>
-          <div style={styles.ListItem}>Javascript</div>
-          <div style={styles.ListItem}>ES6</div>
-          <div style={styles.ListItem}>Heroku</div>
-          <div style={styles.ListItem}>User Authentification using Devise & Devise Token Auth</div>
-          <div style={styles.ListItem}>SQL</div>
-          <div style={styles.ListItem}>React Context API & Redux</div>
-          <div style={styles.ListItem}>React Hooks</div>
+        My final project there was Query, an education focused app where students can take quizzes created by teachers. My experience working on that app taught me a lot about teamwork, the Agile development philosophy, SQL queries, custom controller actions in Rails, and dynamic forms and state management in React. 
         </div>
-
-      </div>
       <div style={styles.ButtonContainer}>
         <div style={styles.button}>
           <div><a href="mailto:jakebills1@gmail.com" style={{ color: "white" }} >Email me</a></div>
