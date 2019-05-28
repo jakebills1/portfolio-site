@@ -47,7 +47,7 @@ const Info = ({ styles, }) => {
           <div><a href="mailto:jakebills1@gmail.com" style={{ color: "white" }} >Email me</a></div>
         </div>
         <div style={styles.button}>
-          <div><Link to="/resume" style={{ color: "white"}}>Full Resume</Link></div>
+          <div><a href="https://drive.google.com/file/d/1DL0UWE3HbKZCjIUx_SSfx9S2YMJiSWQO/view?usp=sharing" style={{color: "white"}}>Full Resume</a></div>
         </div>
       </div>
     </div>
