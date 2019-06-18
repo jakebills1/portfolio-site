@@ -1,13 +1,8 @@
-import React from 'react';
-import profile from '../assets/Jake_Bills_2.jpeg';
+import React from "react";
+import profile from "../assets/Jake_Bills_2.jpeg";
 const CircleImage = () => {
-  return (
-    <div style={styles.circleContainer} >
-    
-    </div>
-  )
-
-}
+  return <div style={styles.circleContainer} />;
+};
 
 export default CircleImage;
 
@@ -22,13 +17,13 @@ const styles = {
     marginBottom: "10px",
     backgroundImage: `url(${profile})`,
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "center"
   },
   pic: {
     display: "inline",
     margin: "0 auto",
     marginLeft: "-25%",
     height: "100%",
-    width: "auto",
+    width: "auto"
   }
-}
+};

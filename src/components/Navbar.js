@@ -1,6 +1,5 @@
-import React from 'react';
+import React from "react";
 const Navbar = () => {
-
   return (
     <div style={styles.nav}>
       <div>Home</div>
@@ -9,8 +8,8 @@ const Navbar = () => {
       <div>more</div>
       <div>even more</div>
     </div>
-  )
-}
+  );
+};
 export default Navbar;
 const styles = {
   nav: {
@@ -18,7 +17,5 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center"
-    
-
   }
-}
+};
