@@ -26,6 +26,7 @@ const styles = {
     fontSize: "50px"
   },
   container: {
+    marginTop: "10px",
     display: "flex",
     alignItems: "center",
     flexDirection: "column",
