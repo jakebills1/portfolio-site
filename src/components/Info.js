@@ -1,8 +1,8 @@
 import React from "react";
-const Info = ({ styles }) => {
+const Info = () => {
   return (
-    <div style={styles.InfoContainer}>
-      <div style={styles.summary}>
+    <div className="infoContainer">
+      <div className="summary">
         My name is Jake Bills and I am a web developer in the Salt Lake City,
         Utah area. I build web applications primarily using Ruby on Rails and
         React but I am very interested in adding new languages and techniques to
@@ -29,20 +29,15 @@ const Info = ({ styles }) => {
         contributing to open source projects, with the intention of obtaining a
         developer position with a great company.
       </div>
-      <div style={styles.ButtonContainer}>
-        <div style={styles.button}>
+      <div className="buttonContainer">
+        <div className="button">
           <div>
-            <a href="mailto:jakebills1@gmail.com" style={{ color: "white" }}>
-              Email me
-            </a>
+            <a href="mailto:jakebills1@gmail.com">Email me</a>
           </div>
         </div>
-        <div style={styles.button}>
+        <div className="button">
           <div>
-            <a
-              href="https://drive.google.com/file/d/1DL0UWE3HbKZCjIUx_SSfx9S2YMJiSWQO/view?usp=sharing"
-              style={{ color: "white" }}
-            >
+            <a href="https://drive.google.com/file/d/1DL0UWE3HbKZCjIUx_SSfx9S2YMJiSWQO/view?usp=sharing">
               Full Resume
             </a>
           </div>
