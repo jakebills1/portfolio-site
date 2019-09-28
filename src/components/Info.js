@@ -1,6 +1,8 @@
 import React from "react";
 import Projects from "./Projects";
+import { useWindowWidth } from "../hooks/useWindowWidth";
 const Info = () => {
+  const width = useWindowWidth();
   return (
     <div className="infoContainer">
       <h2>Biography</h2>
@@ -33,12 +35,12 @@ const Info = () => {
       </div>
       <Projects />
       <div className="buttonContainer">
-        <div className="button">
+        <div className={width > 500 ? "button" : "mobileButton"}>
           <div>
             <a href="mailto:jake@jakebills.com">Email me</a>
           </div>
         </div>
-        <div className="button">
+        <div className={width > 500 ? "button" : "mobileButton"}>
           <div>
             <a href="https://drive.google.com/file/d/1DL0UWE3HbKZCjIUx_SSfx9S2YMJiSWQO/view?usp=sharing">
               Full Resume

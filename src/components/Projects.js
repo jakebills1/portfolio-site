@@ -69,7 +69,7 @@ const Projects = () => {
           <li>Users can group charts into setlists</li>
         </ul>
         <p className="projectLinks">
-          Coming Soon! |{" "}
+          <span style={{ padding: "5px" }}>Coming Soon! </span>|
           <a href="https://github.com/jakebills1/charts">View Code</a>
         </p>
       </div>
