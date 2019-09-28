@@ -1,7 +1,9 @@
 import React from "react";
+import Projects from "./Projects";
 const Info = () => {
   return (
     <div className="infoContainer">
+      <h2>Biography</h2>
       <div className="summary">
         My name is Jake Bills and I am a web developer in the Salt Lake City,
         Utah area. I build web applications primarily using Ruby on Rails and
@@ -29,10 +31,11 @@ const Info = () => {
         contributing to open source projects, with the intention of obtaining a
         developer position with a great company.
       </div>
+      <Projects />
       <div className="buttonContainer">
         <div className="button">
           <div>
-            <a href="mailto:jakebills1@gmail.com">Email me</a>
+            <a href="mailto:jake@jakebills.com">Email me</a>
           </div>
         </div>
         <div className="button">

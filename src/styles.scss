@@ -1,14 +1,14 @@
 $profilePicPath: "https://res.cloudinary.com/dn2bzi2ik/image/upload/v1561659979/Jake_Bills_2.jpeg.jpg";
 
 .mainContainer {
-  margin-top: 10px;
+  margin-top: 1%;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: auto;
   justify-content: center;
   .hero {
-    font-size: 50px;
+    font-size: 3.5em;
   }
   .circleContainer {
     height: 200px;
@@ -16,8 +16,8 @@ $profilePicPath: "https://res.cloudinary.com/dn2bzi2ik/image/upload/v1561659979/
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid black;
-    margin-bottom: 10px;
+    border: 0.4rem solid black;
+    margin-bottom: 1.25%;
     background-image: url($profilePicPath);
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ $profilePicPath: "https://res.cloudinary.com/dn2bzi2ik/image/upload/v1561659979/
     flex-direction: column;
     .summary {
       font-size: 1.5em;
-      margin-bottom: 40px;
+      margin-bottom: 4.2%;
     }
     .buttonContainer {
       display: flex;
@@ -36,12 +36,12 @@ $profilePicPath: "https://res.cloudinary.com/dn2bzi2ik/image/upload/v1561659979/
       flex-direction: column;
       .button {
         width: 25%;
-        height: 40px;
+        height: 2.75em;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        margin-bottom: 10px;
+        margin-bottom: 1.25%;
         a {
           color: white;
         }
