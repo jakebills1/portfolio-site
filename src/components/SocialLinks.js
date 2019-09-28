@@ -1,8 +1,10 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
+import { useWindowWidth } from "../hooks/useWindowWidth";
 const SocialLinks = () => {
+  const width = useWindowWidth();
   return (
-    <div>
+    <div className={width > 500 ? "" : "mobileSocialLinks"}>
       <a
         href="https://www.facebook.com/jake.bills.5"
         target="_blank"
