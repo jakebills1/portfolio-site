@@ -1,34 +1,32 @@
-import React from 'react';
-import profile from '../assets/Jake_Bills_2.jpeg';
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import Img from "gatsby-image";
+import styles from './circle-image.module.css'
+
 const CircleImage = () => {
   return (
-    <div style={styles.circleContainer} >
-    
-    </div>
-  )
-
-}
+    <StaticQuery
+      query={graphql`
+        query {
+          file(relativePath: { eq: "Jake_Bills_2.jpeg" }) {
+            childImageSharp {
+              fixed(width: 250, height: 250) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+      `}
+      render={(data) => (
+        <div className={styles.container}>
+          <Img
+            fixed={data.file.childImageSharp.fixed}
+            className={styles.img}
+          />
+        </div>
+      )}
+    />
+  );
+};
 
 export default CircleImage;
-
-const styles = {
-  circleContainer: {
-    height: "200px",
-    width: "200px",
-    position: "relative",
-    overflow: "hidden",
-    borderRadius: "50%",
-    border: "5px solid black",
-    marginBottom: "10px",
-    backgroundImage: `url(${profile})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  },
-  pic: {
-    display: "inline",
-    margin: "0 auto",
-    marginLeft: "-25%",
-    height: "100%",
-    width: "auto",
-  }
-}
