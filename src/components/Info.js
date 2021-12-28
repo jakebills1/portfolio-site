@@ -37,7 +37,7 @@ const Info = () => {
       <div className="buttonContainer">
         <div className={width > 500 ? "button" : "mobileButton"}>
           <div>
-            <a href="mailto:jake@jakebills.com">Email me</a>
+            <a href="mailto:jakebills1+personal-site@gmail.com">Email me</a>
           </div>
         </div>
         <div className={width > 500 ? "button" : "mobileButton"}>

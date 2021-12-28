@@ -5,13 +5,13 @@ const SocialLinks = () => {
   const width = useWindowWidth();
   return (
     <div className={width > 500 ? "" : "mobileSocialLinks"}>
-      <a
+      {/* <a
         href="https://www.facebook.com/jake.bills.5"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Icon name="facebook" size="big" color="black" />
-      </a>
+      </a> */}
       <a
         href="https://www.github.com/jakebills1"
         target="_blank"
@@ -26,7 +26,7 @@ const SocialLinks = () => {
       >
         <Icon name="linkedin" size="big" color="black" />
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/jakebillsmusic/"
         target="_blank"
         rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
       >
         <Icon name="twitter" size="big" color="black" />
-      </a>
+      </a> */}
     </div>
   );
 };
